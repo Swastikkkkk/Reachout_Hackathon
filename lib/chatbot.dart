@@ -7,7 +7,7 @@ import 'startingScreen.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:dash_chat_2/dash_chat_2.dart';
 
-const GEMINI_API_KEY = 'AIzaSyCrzqhFxN24WIoVg_T8gkf9kI6xv2dog1k';
+const GEMINI_API_KEY = String.fromEnvironment('GEMINI_API_KEY');
 
 class ChatBot extends StatefulWidget {
   const ChatBot({super.key});

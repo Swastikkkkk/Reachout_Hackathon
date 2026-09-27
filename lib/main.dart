@@ -10,7 +10,7 @@ import 'startingScreen.dart';
 import 'chatbot.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
 
-const GEMINI_API_KEY = 'AIzaSyCrzqhFxN24WIoVg_T8gkf9kI6xv2dog1k';
+const GEMINI_API_KEY = String.fromEnvironment('GEMINI_API_KEY');
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(

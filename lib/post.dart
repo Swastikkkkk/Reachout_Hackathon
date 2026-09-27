@@ -17,7 +17,6 @@ import 'package:geolocator/geolocator.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:animated_snack_bar/animated_snack_bar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-// AIzaSyA91Cr-suDb3VDBPwLDp_ci6NOkWCKEw7k
 var Username;
 var price;
 var work;
